@@ -1,2 +1,4 @@
-# stream-lambda
-kata stream-lambda training java 8
+stream-lambda
+=============
+
+Simple Kata for learning Java 8 Streams and Lambdas
