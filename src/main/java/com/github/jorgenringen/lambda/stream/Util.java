@@ -2,12 +2,9 @@ package com.github.jorgenringen.lambda.stream;
 
 import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 
-import java.util.Comparator;
 import java.util.IntSummaryStatistics;
 import java.util.List;
 import java.util.Map;
-
-import static java.util.stream.Collectors.*;
 
 public class Util {
 
