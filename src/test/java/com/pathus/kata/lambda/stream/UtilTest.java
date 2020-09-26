@@ -1,5 +1,6 @@
-package com.github.jorgenringen.lambda.stream;
+package com.pathus.kata.lambda.stream;
 
+import org.hamcrest.Matchers;
 import org.junit.Test;
 
 import java.util.Arrays;
@@ -126,7 +127,7 @@ public class UtilTest {
 
         Map<Boolean, List<Person>> result = Util.partitionAdults(input);
 
-        assertThat(result.get(true), containsInAnyOrder(fred, john));
+        assertThat(result.get(true), Matchers.containsInAnyOrder(fred, john));
         assertThat(result.get(false), containsInAnyOrder(duke));
     }
 
@@ -140,6 +141,6 @@ public class UtilTest {
         Map<String, List<Person>> result = Util.partitionByNationality(input);
 
         assertThat(result.get("USA"), containsInAnyOrder(duke));
-        assertThat(result.get("Norway"), containsInAnyOrder(fred, john));
+        assertThat(result.get("Norway"), Matchers.containsInAnyOrder(fred, john));
     }
 }
