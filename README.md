@@ -1,10 +1,8 @@
-
-# build:
+# Code Kata for learning Java 8 Streams and Lambda
 [![CircleCI](https://circleci.com/gh/circleci/circleci-docs.svg?style=svg)](https://app.circleci.com/pipelines/github/pathus90/stream-lambda)
 
 
-Code Kata for learning Java 8 Streams and Lambda
-=============
+# Description
 
 The kata consists of a class called Util and an accompanying JUnit test called UtilTest.
 
