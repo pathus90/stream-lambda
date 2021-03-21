@@ -1,6 +1,6 @@
 # Code Kata for learning Java 8 Streams and Lambda
-[![CircleCI](https://circleci.com/gh/circleci/circleci-docs.svg?style=svg)](https://app.circleci.com/pipelines/github/pathus90/stream-lambda)
 
+[![CircleCI](https://img.shields.io/circleci/build/github/pathus90/stream-lambda?style=plastic)](https://app.circleci.com/pipelines/github/pathus90/stream-lambda)
 
 # Description
 
