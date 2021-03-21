@@ -1,3 +1,8 @@
+
+# build:
+[![CircleCI](https://circleci.com/gh/circleci/circleci-docs.svg?style=svg)](https://app.circleci.com/pipelines/github/pathus90/stream-lambda)
+
+
 Code Kata for learning Java 8 Streams and Lambda
 =============
 
